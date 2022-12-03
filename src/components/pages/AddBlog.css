@@ -1,0 +1,46 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/images/img-home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+}
+
+.wrapper{
+    padding: 10px;
+} */
+
+@media only screen and (max-width: 600px) {
+   
+      .wrapper textarea{
+        width : 400px;
+        height: 200px;
+      }
+    
+  }
+
+  .form{
+    color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  }
+
+.btn{
+    background-color: #0f5012;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+}
